@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/OneDrive/Documents/Code/P-Center/Graph.h
+vector
+-
+string
+-
+
+D:/OneDrive/Documents/Code/P-Center/P_Center_Tabu.cpp
+P_Center_Tabu.h
+D:/OneDrive/Documents/Code/P-Center/P_Center_Tabu.h
+iostream
+-
+algorithm
+-
+cstring
+-
+
+D:/OneDrive/Documents/Code/P-Center/P_Center_Tabu.h
+Graph.h
+D:/OneDrive/Documents/Code/P-Center/Graph.h
+unordered_set
+-
+vector
+-
+

@@ -1,0 +1,24 @@
+
+findMove伪码
+在D表中找最长的服务边，有多个随机挑一个
+求Nwk，确定增加的服务点的候选节点
+
+for 每个候选节点i：
+	加节点i——求Sc，更新F、D表
+	扫描D表 更新Mf
+	for 每个服务节点j
+		求Sc和Mj的最大值
+		if <i,j>被禁:
+			更新tabuMoveList
+		else:
+			更新nonTabuMoveList
+	删节点i
+// Aspiration criterion
+
+
+
+makeMove伪码
+更新F、D、Sol、bestF
+更新tabuTenure
+
+
